@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>BMI CALCULATOR</h1>
     <main class="container">
+    <h1>BMI CALCULATOR</h1>
       <p class="lead">
         BMI <em>- body mass index -</em> is a calculation based on your weight
         in <em>kilograms</em> and your height in <em>meters</em> that shows your
@@ -18,24 +18,36 @@
       <p>Fill the fields to calculate your BMi</p>
       <form action="#">
         <div class="weight-label">
-          <label for="weight">Weight :</label>
+          <label for="weight">Weight (kg) :</label>
           <input
             type="number"
             name="weight"
             id="weight"
-            placeholder="Your Weight in KG please"
+            placeholder="Your Weight in KG please" 
+            required
           />
         </div>
-        <div class="heigth-label">
-          <label for="height">Height :</label>
+        <div class="height-label">
+          <label for="height">Height (m) :</label>
           <input
             type="number"
             name="height"
             id="number"
-            placeholder="how tall are you"
+            placeholder="how tall are you" 
+            required
           />
         </div>
+
+        <div class="result-div">
+            <p>Your BMI is: <span id="result">67</span></p>
+        </div>
+
       </form>
+      <div class="result-tab">
+          <h2>BMI CHAT</h2>
+          <p>know the value of your BMI score in the chat below</p>
+          
+      </div>
     </main>
 
     <script src="index.js"></script>
