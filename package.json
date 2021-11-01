@@ -1,0 +1,18 @@
+{
+  "name": "bmi-calculator",
+  "version": "1.0.0",
+  "description": "An app that calulates your BMI(Body mass Index) and shows the result in a friendly way",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bmi",
+    "claculator",
+    "body",
+    "mass",
+    "index"
+  ],
+  "author": "Ekene Ugwuanyi (hubnotch)",
+  "license": "MIT"
+}
