@@ -30,7 +30,7 @@ const calculateBMI = (e) => {
       console.log(height)
       console.log(weight)
     let BMI = weight / (height * height);
-    result.innerHTML = BMI.toFixed(3);
+    result.innerHTML = BMI.toFixed(2);
   }
   
 };
