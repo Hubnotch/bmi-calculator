@@ -59,6 +59,17 @@ input[type="number"]::focus {
 border: none;
 }
 
+button {
+    padding:5px 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    background: none;
+    border: 1px solid teal;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 .result-div {
     padding:1rem 0;font-size: 1.52rem;
 }
